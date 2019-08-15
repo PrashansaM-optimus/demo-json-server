@@ -1,0 +1,19 @@
+<div>
+  <div style="text-align:center">
+    <h1>
+      Demo of Json Server
+    </h1>
+  </div>
+  
+  <div>
+    <button (click)="getAllPosts()">All posts</button>
+    <button (click)="addPost()">Add post</button>
+    <button (click)="deletePost()">Delete post</button>
+  </div>
+  <br/>
+  <div>
+    <div>Response</div>
+    <div>{{data|json}}</div>
+  </div>
+  
+</div>
