@@ -1,7 +1,7 @@
 # demo-json-server
 This project demonstrate integration of json server with Angular project. It also shows how to call the json server fake API from Angular.
 
-#Setup the project
+# Setup the project
 - Clone project
 - npm install
 - Run json server: In cmd, type npm run watch-json-server. You can check its running on http://localhost:3000/
